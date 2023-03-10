@@ -2,12 +2,10 @@
 *.pyo
 /*.patch
 /.repo/
-/build*/
 pyshtables.py
 pstage/
 scripts/oe-git-proxy-socks
-sources/
-meta-*/
+sources*/
 buildtools/
 !meta-skeleton
 !meta-selftest
@@ -16,10 +14,6 @@ hob-image-*.bb
 *.orig
 *.rej
 *~
-!meta-poky
-!meta-yocto
-!meta-yocto-bsp
-!meta-yocto-imported
 /documentation/*/eclipse/
 /documentation/*/*.html
 /documentation/*/*.pdf
